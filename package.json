@@ -1,0 +1,29 @@
+{
+  "name": "funx",
+  "version": "0.0.0",
+  "description": "A functionally-reactive Flux experiment.",
+  "contributors": [
+    "Brenton Simpson <bresimpson@ebay.com> (http://appsforartists.com)"
+  ],
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "immutable": "3",
+    "kefir": "1",
+    "to-camel-case": "0.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:appsforartists/funx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/appsforartists/funx/issues"
+  },
+  "homepage": "https://github.com/appsforartists/funx",
+  "devDependencies": {
+    "rf-release": "0.4.0"
+  }
+}
