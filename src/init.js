@@ -206,7 +206,7 @@ function addEphemeralStoresToMap(
                                               ).zip(
                                                 storeDependencies
                                               ).map(
-                                                ([value, store], _) => store || value
+                                                ([value, store]) => store || value
                                               ).toArray();
 
                                               return ephemeralStoreDefinitions[storeName].apply(undefined, dependencies);
